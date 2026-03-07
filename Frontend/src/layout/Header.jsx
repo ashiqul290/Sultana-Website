@@ -2,7 +2,7 @@ import { Home, Wrench, Info, Phone } from "lucide-react";
 import Container from "../Components/Container";
 import { NavLink } from "react-router";
 import { IoIosArrowDown } from "react-icons/io";
-
+import logo from '../assets/logo.png'
 export default function Header() {
   let Navbar = [
   {
@@ -53,16 +53,8 @@ export default function Header() {
         <Container>
           <div className=" flex justify-between items-center">
             <div className="">
-              <div className="flex items-center gap-2">
-                <span className="text-7xl font-bold text-green-600">S</span>
-                <div>
-                  <h1 className="font-bold text-2xl">
-                    DIGITAL <span className="text-red-500">WAVE</span>
-                  </h1>
-                  <p className="text-[10px] tracking-widest text-gray-500">
-                    DIGITAL MARKETING AGENCY
-                  </p>
-                </div>
+              <div className="flex items-center gap-2 w-30 overflow-hidden px-2">
+               <img src={logo} className="scale-190" alt=""  />
               </div>
             </div>
             <div className=" py-7 ">

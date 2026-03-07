@@ -31,7 +31,7 @@ export default function Features() {
         {features.map((item, index) => (
           <div
             key={index}
-            className="bg-gradient-to-b from-green-700 to-green-900 text-white p-8 rounded-xl shadow-lg text-center hover:scale-105 transition duration-300"
+            className="bg-linear-to-b from-blue-700 to-blue-950 text-white p-8 rounded-xl shadow-lg text-center hover:scale-105 transition duration-300"
           >
             <div className="flex justify-center mb-4">
               {item.icon}

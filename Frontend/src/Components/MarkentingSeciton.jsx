@@ -4,13 +4,13 @@ import Lottie from "lottie-react";
 import animationData from "../SVG/analysis-digital-marketing.json";
 const MarkentingSeciton = () => {
   const items = [
-    { text: "ফ্রিল্যান্স", position: "top-[-20px] left-1/2 -translate-x-1/2" },
-    { text: "কেন ফ্রিল্যান্স", position: "top-[80px] right-[-20px]" },
-    { text: "ফ্রিল্যান্স কি", position: "bottom-[80px] right-[-20px]" },
-    { text: "উপকারিতা", position: "bottom-[-20px] left-1/2 -translate-x-1/2" },
+    { text: "ফ্রিল্যান্স", position: "top-[-40px] left-1/2 -translate-x-1/2" },
+    { text: "কেন ফ্রিল্যান্স", position: "top-[120px] right-[-20px]" },
+    { text: "ফ্রিল্যান্স কি", position: "bottom-[60px] right-[20px]" },
+    { text: "উপকারিতা", position: "bottom-[0px] left-[130px] -translate-x-1/2" },
     {
       text: "ডিজিটাল মার্কেটিং",
-      position: "top-1/2 left-[-20px] -translate-y-1/2",
+      position: "top-1/2 left-[-35px] -translate-y-1/2",
     },
   ];
   const [active, setActive] = useState(0);

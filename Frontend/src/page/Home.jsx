@@ -5,6 +5,8 @@ import Services from '../Components/ServiceGrid'
 import BusinessSVG from '../Components/BusinessSVG'
 import AboutSection from '../Components/AboutSection'
 import MarkentingSeciton from '../Components/MarkentingSeciton'
+import Review from '../Components/Review'
+import GrowBusiness from '../Components/GrowBusiness'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
     <Services />
     <BusinessSVG />
     <MarkentingSeciton />
+    <Review />
+    <GrowBusiness />
     </>
   )
 }

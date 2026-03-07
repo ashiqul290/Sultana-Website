@@ -1,22 +1,15 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 import Container from "../Components/Container";
-
+import logo from '../assets/logo.png'
 export default function Footer() {
   return (
     <footer className="bg-black text-white pt-16 pb-10">
       <Container>
 
         {/* Logo */}
-        <div className="flex justify-center mb-12">
-          <div className="text-center">
-            <h1 className="text-3xl font-bold">
-              <span className="text-green-500">Sultana</span> DIGITAL{" "}
-              <span className="text-red-500">WAVE</span>
-            </h1>
-            <p className="text-sm tracking-widest text-gray-400">
-              DIGITAL MARKETING AGENCY
-            </p>
-          </div>
+        <div className="flex justify-center mb-12 h-30 overflow-hidden">
+                         <img src={logo} className=" scale-180"  alt=""  />
+                       
         </div>
 
         {/* Grid */}

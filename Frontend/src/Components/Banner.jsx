@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Bannerimg1 from "../assets/Web-DMP.webp";
+import Bannerimg1 from "../assets/WhatsApp Image 2026-03-06 at 8.11.07 PM.jpeg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
