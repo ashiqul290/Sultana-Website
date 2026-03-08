@@ -12,11 +12,17 @@ export default function Header() {
   {
     name: "Our Services",
     icon: <IoIosArrowDown />,
-    link: "services",
+    link: "#",
     submenu: [
-      { name: "Facebook Marketing", link: "facebook-marketing" },
-      { name: "Graphic Design", link: "graphic-design" },
-      { name: "Web Development", link: "web-development" },
+      { name: "FACEBOOK MARKETING", link: "facebook-marketing" },
+      { name: "Graphics Design", link: "graphic-design" },
+      { name: "E-commerce", link: "e-commerce" },
+      { name: "Business website", link: "business-website" },
+      { name: "Travel agency", link: "travel-agency" },
+      { name: "Real Estate Website", link: "real-estate-website" },
+      { name: "Educational website", link: "educational-website" },
+      { name: "News Portal", link: "news-portal" },
+      { name: "Landing Page", link: "landing-page" },
     ],
   },
   {
@@ -81,7 +87,7 @@ export default function Header() {
 
           {item.submenu.map((sub, i) => (
             <NavLink key={i} to={sub.link}>
-              <li className="px-5 py-3 hover:bg-gray-500 hover:text-white cursor-pointer">
+              <li className="px-5 py-3  hover:text-green-600 cursor-pointer">
                 {sub.name}
               </li>
             </NavLink>

@@ -4,6 +4,7 @@ import Rootlayout from "./layout/Rootlayout";
 import Home from "./page/Home";
 import About from "./page/About";
 import Contact from "./page/Contact";
+import FACEBOOKMARKETING from "./page/FACEBOOKMARKETING";
 
 function App() {
 let router = createBrowserRouter([
@@ -14,6 +15,7 @@ let router = createBrowserRouter([
       { index: true, Component: Home },
       { path: "about", Component: About },
       { path: "contact", Component: Contact },
+      { path: "facebook-marketing", Component: FACEBOOKMARKETING },
      
     ],
   },

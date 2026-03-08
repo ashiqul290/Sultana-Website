@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg from '../assets/Ceo-Rakib-1536x2048.webp'
+import aboutimg from '../assets/WhatsApp Image 2026-03-06 ats 8.02.27 PM.jpeg'
 const AboutSection = () => {
   return (
     <section className="bg-gray-100 py-20">
@@ -38,7 +38,7 @@ const AboutSection = () => {
 
           {/* Bottom Card */}
           <div className="absolute bottom-0 right-0 bg-linear-to-b  from-blue-700 to-blue-950 text-white px-8 py-5 rounded-tl-xl rounded-br-xl shadow-lg">
-            <h4 className="font-bold text-lg">JONY RAKIB</h4>
+            <h4 className="font-bold text-lg">Sultana Akhtar</h4>
             <p className="text-sm opacity-90">CEO & FOUNDER</p>
           </div>
         </div>

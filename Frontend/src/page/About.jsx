@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../Components/Container";
-import aboutimg from "../assets/Ceo-Rakib-1536x2048.webp";
+import aboutimg from '../assets/WhatsApp Image 2026-03-06 ats 8.02.27 PM.jpeg'
 import { FaHandshake, FaUserFriends, FaWhatsapp } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { IoMdShare } from "react-icons/io";
@@ -82,8 +82,8 @@ const About = () => {
 
                   {/* Bottom Card */}
                   <div className="absolute -bottom-20 right-0 bg-linear-to-b  from-blue-700 to-blue-950 text-white px-8 py-5 rounded-tl-xl rounded-br-xl shadow-lg">
-                    <h4 className="font-bold text-lg">Sultana Akthar</h4>
-                    <p className="text-sm opacity-90">working time</p>
+                    <h4 className="font-bold text-lg">Sultana Akhtar</h4>
+                    <p className="text-sm opacity-90">CEO & FOUNDER</p>
                   </div>
                 </div>
               </div>
