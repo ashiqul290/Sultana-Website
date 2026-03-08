@@ -12,7 +12,7 @@ export default function Header() {
   {
     name: "Our Services",
     icon: <IoIosArrowDown />,
-    link: "#",
+    link: "facebook-marketing",
     submenu: [
       { name: "FACEBOOK MARKETING", link: "facebook-marketing" },
       { name: "Graphics Design", link: "graphic-design" },

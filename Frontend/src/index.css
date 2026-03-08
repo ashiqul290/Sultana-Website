@@ -1,2 +1,8 @@
 @import "tailwindcss";
 
+.bgimg{
+    background-image: url(assets/pngtree-rendering-3d-designs-with-graphic-design-tools-image_3763912.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -5,6 +5,8 @@ import Home from "./page/Home";
 import About from "./page/About";
 import Contact from "./page/Contact";
 import FACEBOOKMARKETING from "./page/FACEBOOKMARKETING";
+import GraphicsDesign from "./page/GraphicsDesign";
+import E_Commerce from "./page/E_Commerce";
 
 function App() {
 let router = createBrowserRouter([
@@ -16,6 +18,8 @@ let router = createBrowserRouter([
       { path: "about", Component: About },
       { path: "contact", Component: Contact },
       { path: "facebook-marketing", Component: FACEBOOKMARKETING },
+      { path: "graphic-design", Component: GraphicsDesign },
+      { path: "e-commerce", Component: E_Commerce },
      
     ],
   },
