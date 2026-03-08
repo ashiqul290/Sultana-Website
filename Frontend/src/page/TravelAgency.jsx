@@ -1,12 +1,12 @@
-import React from "react";
-import Container from "../Components/Container";
+import React from 'react'
+import Container from '../Components/Container'
 import imgProject from "../assets/Untitled design (2).png";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import webImg from '../assets/ShopZen-E-commerce-Website-03-05-2026_02_44_AM.png'
 import { Link } from "react-router";
 
-const E_Commerce = () => {
-  let packages = [
+const TravelAgency = () => {
+    let packages = [
     {
       name: "Basic Package",
       price: "৳12999",
@@ -41,61 +41,39 @@ const E_Commerce = () => {
         "24/7 Support",
       ],
     },
-    {
-      name: "Gold Package",
-      price: "৳29999",
-      features: [
-        ".com .net .shop .xyz ডোমেইন",
-        "Hostinger হোস্টিং সেটআপ",
-        "CMS: WordPress",
-        "SSL সার্টিফিকেট",
-        "10-12 Page Design",
-        "Advanced SEO",
-        "Responsive Design",
-        "24/7 Support",
-      ],
-    },
+   
   ];
   return (
     <>
-      <div className=" text-white bg-gradient-to-r from-purple-900 to-green-800 py-20 relative">
+      <div className=" text-white bg-black py-20 relative">
         <Container>
-          <div className=" flex justify-between items-center">
-            <div className=" relative z-20">
-              <h2 className=" font-bold text-4xl w-190 leading-16">
-                ব্যবসাকে গতিশীল এবং অটোমেশন করতে যাচ্ছেন তাহলে আজই বানিয়ে ফেলুন
-                আপনার নিজেস্ব্য অনলাইন শপ
+          <div className=" text-center">
+          
+              <h2 className=" font-bold text-6xl text-center leading-16">
+              Travel agency
               </h2>
-              <p className=" text-xl font-medium mt-12 w-190 leading-10">
-                ই-কমার্স ওয়েবসাইট (eCommerce Website) -এ ইন্টারনেটের মাধ্যমে
-                পণ্য বা সেবা ক্রয়/ বিক্রয় হয়ে থাকে। আধুনিক ইলেকট্রনিক কমার্স
-                সাধারণত ওয়ার্ল্ড ওয়াইড ওয়েব এর মাধ্যমে বাণিজ্য কাজ পরিচালনা
-                করে। এছাড়াও মোবাইল কমার্স, ইলেকট্রনিক ফান্ড ট্রান্সফার ও
-                অন্যান্য আরো কিছু মাধ্যম ব্যবহৃত হয়।
-              </p>
-              <button className=" mt-10 rounded-[10px] shadow-[0_0_5px] shadow-black/35 px-5 bg-red-700 font-medium py-3 ">
-                GET FREE CONSULTATION
-              </button>
+            <div className=" flex gap-1 justify-center  mt-5 items-center">
+                <Link to={`/`} className=' text-xl  font-medium'> Home </Link>
+                / <h4 className=' text-xl  font-medium'>Travel Agency website</h4>
             </div>
-            <div className="w-150 h-90">
-              <img src={imgProject} alt="" className=" h-full w-full" />
-            </div>
+      
           </div>
         </Container>
       </div>
 
       <div className="my-20">
         <Container>
+           
           <div className="">
             <h2 className=" font-bold text-5xl text-center text-green-700 leading-16">
               আমাদের প্যাকেজসমূহ
             </h2>
 
-            <div className=" grid grid-cols-3 gap-4 mt-10">
+            <div className=" grid grid-cols-2  gap-4 mt-10">
               {packages.map((pkg, index) => (
                 <div
                   key={index}
-                  className="bg-gradient-to-r from-gray-800 to-black/70 text-white rounded-lg shadow-lg p-6 flex flex-col justify-between"
+                  className="bg-gradient-to-r w-[90%] mx-auto from-gray-800 to-black/70 text-white rounded-lg shadow-lg p-6 flex flex-col justify-between"
                 >
                   <div>
                     <h2 className="text-center font-bold text-3xl mb-2">
@@ -123,37 +101,14 @@ const E_Commerce = () => {
               ))}
             </div>
           </div>
-
-          <div className=" mt-20">
+               <div className=" mt-20">
               <h2 className=" font-bold text-5xl text-center text-green-700 leading-16">
-              আমাদের করা Ecommerce ওয়েবসাইটগুলো
+              আমাদের করা Travel agency ওয়েবসাইটগুলো
             </h2>
 
             <div className=" grid grid-cols-3 gap-5 my-9">
-              <div className="w-105 h-130 shadow shadow-black/20">
-              <div className="w-full h-116 overflow-hidden">
-                <img src={webImg} alt="" />
-              </div>
-              <Link to={``}>
-              <button className=" py-3 w-full font-medium text-2xl bg-green-500 text-white cursor-pointer hover:bg-pink-700 duration-500">Live view</button>
-              </Link>
-            </div>
-            <div className="w-105 h-130 shadow shadow-black/20">
-              <div className="w-full h-116 overflow-hidden">
-                <img src={webImg} alt="" />
-              </div>
-              <Link to={``}>
-              <button className=" py-3 w-full font-medium text-2xl bg-green-500 text-white cursor-pointer hover:bg-pink-700 duration-500">Live view</button>
-              </Link>
-            </div>
-            <div className="w-105 h-130 shadow shadow-black/20">
-              <div className="w-full h-116 overflow-hidden">
-                <img src={webImg} alt="" />
-              </div>
-              <Link to={``}>
-              <button className=" py-3 w-full font-medium text-2xl bg-green-500 text-white cursor-pointer hover:bg-pink-700 duration-500">Live view</button>
-              </Link>
-            </div>
+          
+        
             <div className="w-105 h-130 shadow shadow-black/20">
               <div className="w-full h-116 overflow-hidden">
                 <img src={webImg} alt="" />
@@ -204,10 +159,11 @@ const E_Commerce = () => {
             </div>
             </div>
           </div>
+          
         </Container>
       </div>
     </>
   );
-};
+}
 
-export default E_Commerce;
+export default TravelAgency
